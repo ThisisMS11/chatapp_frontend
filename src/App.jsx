@@ -4,7 +4,7 @@ import { io } from 'socket.io-client'
 import Chat from './Chat';
 
 const END_POINT_LOCAL = "http://localhost:3001";
-const END_POINT = "https://mychat11.onrender.com/"
+const END_POINT = "https://mychat11.onrender.com"
 
 const socket = io.connect(END_POINT);
 
